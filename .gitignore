@@ -1,0 +1,37 @@
+
+---
+
+### 2. Updated `.gitignore`
+
+Open Notepad and paste this:
+
+```txt
+# Environment & secrets
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ollama / logs (optional)
+*.log
